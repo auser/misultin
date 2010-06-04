@@ -11,7 +11,7 @@ all:
 	@cp $(SRC_DIR)/*.app $(EBIN_DIR)/
 	
 clean:
-	@rm -rf $(EBIN_DIR)/*
+	@rm -rf $(EBIN_DIR)/*.beam
 	@rm -f erl_crash.dump
 	
 debug:
